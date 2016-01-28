@@ -1,0 +1,206 @@
+.button
+{
+	border-radius:50px;
+	 background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 11%, rgb(129,128,128) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 11%, rgb(129,128,128) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 11%, rgb(129,128,128) 100%);
+ box-shadow: 11px 19.053px 32px 0px rgb( 0, 0, 0 );
+ margin-left:1%;
+ margin-top:1%;
+ color:white;
+}
+
+.pressed
+{
+
+box-shadow: 0px 0px 0px 0px rgb( 0, 0, 0 );
+ background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 5%, rgb(129,128,128) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 5%, rgb(129,128,128) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 5%, rgb(129,128,128) 100%);
+
+}
+.button:hover
+{
+	cursor:pointer;
+	/*background:gray;*/
+}
+.button:active
+{
+	box-shadow: 0px 0px 0px 0px rgb( 0, 0, 0 );
+ background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 5%, rgb(129,128,128) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 5%, rgb(129,128,128) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(97,97,105) 5%, rgb(129,128,128) 100%);
+}
+/*************************************************************************recordButton*********************************************/
+.recordButton
+{
+	width:10%;
+	height:40%;
+	
+	position:relative;
+
+	
+	
+  
+}
+
+.text
+{
+	
+	font-size:4vh;
+  font-family: "Plantagenet Cherokee";
+  color: white;
+  text-align: center;
+  position:relative;
+
+  transform: translateY(-50%);
+    
+}
+.light {
+  border-radius: 50%;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(238,32,32) 0%, rgb(238,32,32) 33%, rgb(238,32,32) 44%, rgb(167,9,9) 96%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(238,32,32) 0%, rgb(238,32,32) 33%, rgb(238,32,32) 44%, rgb(167,9,9) 96%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(167,9,9) 0%, rgb(238,32,32) 0%, rgb(238,32,32) 33%, rgb(238,32,32) 44%, rgb(167,9,9) 96%);
+ 
+ position:relative;
+ left:10%;
+  height: 30%;
+  width: 20%;
+    height:0;
+    padding-bottom: 20%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+	
+	top: 50%;
+  transform: translateY(-50%);
+}
+.glow
+{
+	
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+-moz-box-shadow: 0px 0px 15px 5px rgba(238, 32, 32, .75);
+box-shadow: 0px 0px 15px 5px rgba(238, 32, 32, .75);
+  
+}
+/*********************************************************************End recordButton*********************************************/
+/*********************************************************************play Button**************************************************/
+.playButton
+{
+	height:40%;
+	width:5%;
+}
+#graphicContainer
+{
+	height:100%
+}
+.tricontainer
+{
+	margin:auto;
+	 width: 0;
+    height: 0;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 25%;
+    overflow: hidden;
+	position: relative;
+	top: 50%;
+	transform: translateY(-30%);
+   
+}
+.triangle
+{
+	width: 0; 
+    height: 0;
+    margin-top:-500px;
+    margin-left: -500px;
+     
+    border-top: 500px solid transparent;
+    border-bottom: 500px solid transparent;
+    border-left: 500px solid rgba(255,255,255,.80);
+	
+}
+.recPause
+{
+		background:rgba(255,255,255,.80);
+	width: 10%;
+    height: 80%;
+	position: relative;
+	-moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 40%;
+	float:left;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.left
+{
+	margin-left:35%;
+	margin-right:5%;
+}
+.right
+{
+	margin-left:5%;
+	margin-right:35%;
+}
+/*.leftRecPause
+{
+	background:rgba(255,255,255,.80);
+	width: 20%;
+    height: 80%;
+	position: relative;
+	border-radius:30%;
+	margin-left:25%;
+	margin-right:5%;
+	float:left;
+   top: 50%;
+	transform: translateY(-50%);
+}
+.rightRecPause
+{
+	background:rgba(255,255,255,.80);
+	width: 20%;
+    height: 80%;
+	position: relative;
+	border-radius:30%;
+	margin-left:5%;
+	margin-right:25%;
+	float:left;
+   top: 50%;
+	transform: translateY(-50%);
+}
+/******************************************************************End play Button**************************************************/
+/*********************************************************************stop Button**************************************************/
+.stopButton
+{
+	height:40%;
+	width:5%;
+}
+
+.square
+{
+	background:rgba(167,9,9,.80);
+	width: 4vh;
+    height:4vh;
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+   margin:auto;
+   -moz-border-radius: 10%; 
+    -webkit-border-radius: 10%; 
+    border-radius: 10%;
+}
+
+/******************************************************************End stop Button**************************************************/
+/******************************************************************save Button******************************************************/
+.saveButton
+{
+	height:40%;
+	width:14%;
+	font-size:4vh;
+  font-family: "Plantagenet Cherokee";
+  color: white;
+  text-align: center;
+  position:relative;
+}
+
