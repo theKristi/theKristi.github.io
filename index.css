@@ -1,0 +1,22 @@
+html, body
+{
+	background:black;
+	color:white;
+	height: 100%;
+    		margin: 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+font-size:7vh;
+}
+#musicButton
+{
+	width:5%;
+	height:32%;
+	background-image:url('TrebleClef.png');
+background-repeat:no-repeat;
+	background-color:white;
+}
