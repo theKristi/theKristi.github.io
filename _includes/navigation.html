@@ -1,0 +1,34 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">
+      <img src="{{ '/TrebleClef.png' | relative_url }}" alt="Logo" class="nav-logo">
+      Kristi_the_Coder
+    </a>
+    
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a></li>
+      <li><a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url contains '/projects' %}active{% endif %}">Projects</a></li>
+      <li><a href="{{ '/archive/' | relative_url }}" class="nav-link {% if page.url contains '/archive' %}active{% endif %}">Archive</a></li>
+      <li><a href="{{ '/devlog/' | relative_url }}" class="nav-link {% if page.url contains '/devlog' %}active{% endif %}">Devlog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  // Mobile menu toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
+      });
+    }
+  });
+</script>

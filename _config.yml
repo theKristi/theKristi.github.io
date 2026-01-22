@@ -1,0 +1,47 @@
+# Site settings
+title: Kristi_the_Coder
+email: 
+description: >-
+  Portfolio website showcasing creative coding projects, games, and development thoughts.
+  From Flash games to Unity projects and JavaScript experiments.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thekristi.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username: theKristi
+
+# Build settings
+markdown: kramdown
+theme: 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /devlog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - dist
+  - testers
+
+# Permalink style
+permalink: /devlog/:year/:month/:day/:title/
