@@ -7,8 +7,8 @@
   --color-surface: #1a1a1a;
   --color-primary: #ffffff;
   --color-secondary: #b0b0b0;
-  --color-accent: #f4c430; /* Gold accent */
-  --color-accent-hover: #ffd700;
+  --color-accent: #dc3545; /* Red accent */
+  --color-accent-hover: #ff4757;
   --color-border: #333333;
   
   /* Typography */
@@ -120,7 +120,7 @@ img {
 .nav-link:hover,
 .nav-link.active {
   color: var(--color-accent);
-  background-color: rgba(244, 196, 48, 0.1);
+  background-color: rgba(220, 53, 69, 0.1);
 }
 
 .nav-toggle {
@@ -241,7 +241,7 @@ img {
   background-color: var(--color-accent-hover);
   border-color: var(--color-accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(244, 196, 48, 0.4);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4);
 }
 
 .btn-secondary {
@@ -304,7 +304,7 @@ img {
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(244, 196, 48, 0.2);
+  box-shadow: 0 8px 24px rgba(220, 53, 69, 0.2);
   border-color: var(--color-accent);
 }
 
@@ -338,7 +338,7 @@ img {
 }
 
 .tag {
-  background-color: rgba(244, 196, 48, 0.2);
+  background-color: rgba(220, 53, 69, 0.2);
   color: var(--color-accent);
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
