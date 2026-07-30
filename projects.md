@@ -13,6 +13,23 @@ permalink: /projects/
     
     <div class="projects-grid">
       <div class="project-card">
+        <h3 class="project-title">ShowBuilder</h3>
+        <p class="project-description">
+          An AI-powered slide builder for ProPresenter. Paste in a style guide and presentation notes,
+          and Claude generates a ready-to-import slide deck in seconds — built for churches and live events.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Next.js</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Claude API</span>
+        </div>
+        <div class="project-links">
+          <a href="https://show-builder-rho.vercel.app" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View App</a>
+          <a href="https://github.com/theKristi/ShowBuilder" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Source</a>
+        </div>
+      </div>
+
+      <div class="project-card">
         <img src="{{ '/assets/backgroundPhotos/TardisFlightScreenShot1.png' | relative_url }}" alt="Flight of the Tardis" class="project-image">
         <h3 class="project-title">Flight Of The Tardis</h3>
         <p class="project-description">
