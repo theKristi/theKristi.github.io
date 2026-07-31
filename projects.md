@@ -13,6 +13,7 @@ permalink: /projects/
     
     <div class="projects-grid">
       <div class="project-card">
+        <img src="{{ '/assets/backgroundPhotos/ShowBuilderScreenshot1.png' | relative_url }}" alt="ShowBuilder app screenshot" class="project-image">
         <h3 class="project-title">ShowBuilder</h3>
         <p class="project-description">
           An AI-powered slide builder for ProPresenter. Paste in a style guide and presentation notes,
